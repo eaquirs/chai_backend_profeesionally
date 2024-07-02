@@ -5,9 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-   "start": "node index.js",
-   "dev":"nodemon src/index.js"
+    "start": "node index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.2"
+  }
 }
